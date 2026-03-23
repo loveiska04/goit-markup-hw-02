@@ -36,10 +36,10 @@ a {
         color: #4d5ae5;
 }
 
-nav a:hover,
-nav a:focus {
-    color: #4d5ae5;
-    text-decoration: underline;
+.header-nav a:hover,
+.header-nav a:focus {
+    color: #404bbf;
+    text-decoration: none;
 }
 
 a[href^="mailto"]:hover,
@@ -48,6 +48,7 @@ a[href^="tel"]:hover,
 a[href^="tel"]:focus {
     color: #4d5ae5;
     text-decoration: underline;
+    font-style: normal;
 }
 
 .header-list {
@@ -86,7 +87,7 @@ h1 {
         letter-spacing: 0.04em;
         color: #fff;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-            background: #4d5ae5;
+            background: #404bbf;
             cursor: pointer;
 }
 
