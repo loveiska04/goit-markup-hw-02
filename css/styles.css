@@ -42,10 +42,14 @@ a {
     text-decoration: none;
 }
 
+.address-link a {
+    font-style: normal;
+}
+
 .address-link a:hover,
 .address-link a:focus {
-    color: #4d5ae5;
-        text-decoration: underline;
+    color: #404bbf
+        text-decoration: none;
         font-style: normal;
 }
 
@@ -85,13 +89,13 @@ h1 {
         letter-spacing: 0.04em;
         color: #fff;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-            background: #404bbf;
+            background: #4d5ae5;
             cursor: pointer;
 }
 
 .main-title-button:hover,
 .main-title-button:focus {
-    background-color: #4d5ae5;
+    background-color: #404bbf;
 }
 
 .features-subtitle {
