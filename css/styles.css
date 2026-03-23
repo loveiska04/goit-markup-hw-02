@@ -42,13 +42,11 @@ a {
     text-decoration: none;
 }
 
-a[href^="mailto"]:hover,
-a[href^="mailto"]:focus,
-a[href^="tel"]:hover,
-a[href^="tel"]:focus {
+.address-link a:hover,
+.address-link a:focus {
     color: #4d5ae5;
-    text-decoration: underline;
-    font-style: normal;
+        text-decoration: underline;
+        font-style: normal;
 }
 
 .header-list {
