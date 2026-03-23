@@ -1,5 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
+    color: #2e2f42;
+    background-color: #fff;
 }
 
 ul {
@@ -7,6 +9,7 @@ ul {
 }
 
 a {
+    color: #434455;
     text-decoration: none;
 }
 
@@ -31,6 +34,20 @@ a {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #4d5ae5;
+    text-decoration: underline;
+}
+
+a[href^="mailto"]:hover,
+a[href^="mailto"]:focus,
+a[href^="tel"]:hover,
+a[href^="tel"]:focus {
+    color: #4d5ae5;
+    text-decoration: underline;
 }
 
 .header-list {
@@ -70,6 +87,12 @@ h1 {
         color: #fff;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
             background: #4d5ae5;
+            cursor: pointer;
+}
+
+.main-title-button:hover,
+.main-title-button:focus {
+    background-color: #4d5ae5;
 }
 
 .features-subtitle {
