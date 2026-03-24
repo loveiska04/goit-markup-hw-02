@@ -36,19 +36,19 @@ a {
         color: #4d5ae5;
 }
 
-.header-nav a:hover,
-.header-nav a:focus {
+.header-link:hover,
+.header-link:focus {
     color: #404bbf;
     text-decoration: none;
 }
 
-.address-link a {
+.address-link {
     font-style: normal;
 }
 
-.address-link a:hover,
-.address-link a:focus {
-    color: #404bbf
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
         text-decoration: none;
         font-style: normal;
 }
@@ -73,7 +73,7 @@ a {
     background: #2e2f42;
 }
 
-h1 {
+.main-title-name {
     font-weight: 700;
         font-size: 56px;
         line-height: 1.07143;
